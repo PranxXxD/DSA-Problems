@@ -13,7 +13,7 @@ function pyramid(){
           str += "*"
         }else{
           str += " "
-        }
+        }2
         k++
         }
         else{

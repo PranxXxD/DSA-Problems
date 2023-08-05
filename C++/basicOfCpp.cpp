@@ -1,11 +1,60 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
 int main(){
 
-    int ch = 256;
-    long long value = 7;
+    int a = 5;
+    int b = 3;
 
-    cout << ch << endl;
-    cout << sizeof(ch) << endl;
+    // cout << (a<=b) << endl;
+
+    cout << !(a==5);
+    
+
+    
+    // cout << (5)/((double)3);
+    
+    // int a = 5;
+    // int b = 3;
+
+    // cout << a+b << endl;
+    // cout << a-b << endl;
+    // cout << a*b << endl;
+    // cout << a%b << endl;
+    // cout << a/b << endl;
+    
+    // double d = 5.7;
+
+    // int x = (int)d ;
+    // cout << "value of x is " << x << endl;
+    
+    // char ch = 97;
+    // cout << ch << endl;
+
+    // int num = 'b';
+    // cout << num << endl;
+    
+    // long long a = 5;
+    // cout << sizeof(a) << endl;
+    
+    // int a = 5;
+    // cout <<" value of a is : " << a << endl;
+
+    // char ch = 256;
+    // cout <<" value of ch is : " << ch << endl;
+
+    // bool flag = 1;
+    // cout << "value of flag is " << flag << endl;
+    
+    // cout <<  "Namaste Bharat\n" << endl ;
+    // cout << '\n';
+
+    // cout << "Enter a number: " << endl;
+
+    // int a;
+    // //taking input
+    // cin >> a;
+
+    // cout << "You entered " << a << endl;
+    
 }
