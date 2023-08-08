@@ -12,6 +12,7 @@ int main(){
     
    int n;
    cin >> n;
+//    half pyramrid
 //    for(int row=0; row<n ; row++){
 //     for(int col=0; col<row+1; col++){
 //         cout << col+1;
@@ -19,6 +20,7 @@ int main(){
 //            cout << endl;
 //    } 
 
+// inverted half pyramind
 // for (int row = 0; row < n; row++)
 // {
 //     for (int col = 0; col < n-row; col++)
@@ -28,6 +30,7 @@ int main(){
 //     cout << endl;
 // }
 
+// full pyramid
 for (int row = 0; row < n; row++)
 {
     int k=0;
