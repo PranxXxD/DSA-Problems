@@ -3,58 +3,53 @@ using namespace std;
 
 int main(){
 
-    int a = 5;
-    int b = 3;
-
-    // cout << (a<=b) << endl;
-
-    cout << !(a==5);
-    
-
-    
-    // cout << (5)/((double)3);
-    
     // int a = 5;
     // int b = 3;
 
-    // cout << a+b << endl;
-    // cout << a-b << endl;
-    // cout << a*b << endl;
-    // cout << a%b << endl;
-    // cout << a/b << endl;
+    // cout << (a<=b) << endl;
+
+    // cout << !(a==5);
     
-    // double d = 5.7;
+   int n;
+   cin >> n;
+//    for(int row=0; row<n ; row++){
+//     for(int col=0; col<row+1; col++){
+//         cout << col+1;
+//     }
+//            cout << endl;
+//    } 
 
-    // int x = (int)d ;
-    // cout << "value of x is " << x << endl;
-    
-    // char ch = 97;
-    // cout << ch << endl;
+// for (int row = 0; row < n; row++)
+// {
+//     for (int col = 0; col < n-row; col++)
+//     {
+//         cout << col+1;
+//     }
+//     cout << endl;
+// }
 
-    // int num = 'b';
-    // cout << num << endl;
-    
-    // long long a = 5;
-    // cout << sizeof(a) << endl;
-    
-    // int a = 5;
-    // cout <<" value of a is : " << a << endl;
+for (int row = 0; row < n; row++)
+{
+    int k=0;
+    for (int col = 0; col < (2*n-1); col++)
+    {
+        if (col < n-row-1)
+        {
+             cout << "*";
 
-    // char ch = 256;
-    // cout <<" value of ch is : " << ch << endl;
+        }
+        else if(k<(2*row+1)){
+            cout << col + 1;
+            k++;
+        }
+        else{
+            cout << "*";
+        }
+    }
+    cout << endl;
+    /* code */
+}
 
-    // bool flag = 1;
-    // cout << "value of flag is " << flag << endl;
-    
-    // cout <<  "Namaste Bharat\n" << endl ;
-    // cout << '\n';
 
-    // cout << "Enter a number: " << endl;
 
-    // int a;
-    // //taking input
-    // cin >> a;
-
-    // cout << "You entered " << a << endl;
-    
 }
