@@ -14,8 +14,8 @@ using namespace std;
 int sumEven(int n){
 
     int Evensum = 0;
-    for(int i= 0; i <= n; i+2){
-        Evensum += i;
+    for(int i= 0; i <= n;){
+        Evensum += i+2;
     }
     return Evensum;
 }

@@ -7,7 +7,6 @@ int kilometers(int n){
     float miles = float(n * 0.621371);
 
     return miles;
-
 }
 
 int main(){
