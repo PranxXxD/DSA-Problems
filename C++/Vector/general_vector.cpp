@@ -1,13 +1,16 @@
 #include<iostream>
-#include<vector>
+#include <vector>
+
+
 
 using namespace std;
 
 
 int main(){
 
-    vector<int>arr;
-    cin >> arr;
+    vector <int> arr;
+
+    cin >>arr;
 
     for (int i = 0; i < arr; i++)
     {

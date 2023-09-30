@@ -1,4 +1,6 @@
 #include<iostream>
+#include<istream>
+#include<vector>
 using namespace std;
 
 void Printpairs(int arr[], int num){
@@ -15,6 +17,7 @@ void Printpairs(int arr[], int num){
 
 
 }
+
 
 
 int main(){
