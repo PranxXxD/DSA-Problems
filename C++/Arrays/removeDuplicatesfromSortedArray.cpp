@@ -22,7 +22,7 @@ int Duplicate(vector<int>&arr, int&n){
 int main(){
 
     vector<int> arr = {0,1,1,2,2,3,3,4,5,7,9,10,11,11};
-    int n = arr.size()-1;
+    int n = arr.size();
 
     return Duplicate(arr, n);
     
