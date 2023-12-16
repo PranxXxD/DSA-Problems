@@ -1,18 +1,16 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int countNum (int n){
+void countNum(int n){
 
     for(int i=1; i<=n; i++){
 
-        int ans =  i;
-        
+        cout << i <<""<<endl;
     }
 }
 
 int main(){
 
-    int finalans =  countNum(10);
-    cout << "final ans: " << finalans;
-
+   int ans = countNum(10)
+    cout << "final ans: " << ans << endl;
 }
